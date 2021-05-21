@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dairy</title>
+    <link rel="stylesheet" href="/resources/styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Dairy Business</h1>
+    </header>
+
+    <div class="infor">
+        <h2>Enter Daily Milk Production Details</h2>
+        <form action="" class="entry">
+            <div >
+                <label for="aValue" class="label">Shed A:</label>
+                <input type="number" placeholder="input value (in litres)" id="shedA" required>
+            </div>
+            <div >
+                <label for="bValue" class="label">Shed B:</label>
+                <input type="number" placeholder="input value (in litres)" id="shedB" required>
+            </div>
+            <div >
+                <label for="cValue" class="label">Shed C:</label>
+                <input type="number" placeholder="input value (in litres)" id="shedC" required>
+            </div>
+            <div >
+                <label for="dValue" class="label">Shed D:</label>
+                <input type="number" placeholder="input value (in litres)" id="shedD" required>
+            </div>
+        </form>
+        <h3>Select Category to Calculate</h3>
+        <div class="select">
+            <input type="radio" name="result" id="yearly" value="Yearly">
+            <label for="yearly">Yearly</label>
+            <input type="radio" name="result" id="weekly" value="Weekly">
+            <label for="weekly">Weekly</label>
+            <input type="radio" name="result" id="yearlyLeap" value="LeapYear">
+            <label for="yearlyLeap">Leap Year</label>
+            <input type="radio" name="result" id="monthly" value="Monthly">
+            <label for="monthly">Monthly in a Leap Year</label>
+        </div>
+        <button id="butt" type="submit">Calculate</button>
+    </div>
+    <div class="results">
+        <h3>Results</h3>
+        <div class="result" id="results">
+            
+        </div>
+    </div>
+    <script src="/resources/calculate.js"></script>
+</body>
+</html>

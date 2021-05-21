@@ -1,0 +1,109 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 20px 50px; */
+}
+
+header{
+    background-image: url(/images/dairy.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+    opacity: 0.65;
+    margin: 0;
+  
+}
+
+h1{
+    color: rgb(37, 194, 194);
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 50px;
+}
+
+.infor{
+    background-color: rgb(226, 224, 230);
+    width: 80%;
+    margin: 10px auto;
+    padding: 20px 50px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 1.7rem;
+    color: rgb(72, 77, 77);
+    margin: 0;
+}
+
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.entry>div{
+    padding: 10px 50px;
+}
+.entry>div>input{
+    margin: 5px 0 0 10px;
+    padding: 5px 10px;
+    border: none;
+    border-bottom: solid olivedrab;
+    border-radius: 10px;
+}
+
+.label{
+    display: block;
+    color: olivedrab;
+}
+
+.select{
+    margin: 20px ;
+}
+
+h3{
+    color: rgb(72, 77, 77);
+    margin: 0;
+}
+
+button{
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: olivedrab;
+    color: rgb(226, 224, 230);
+    font-size: 1rem;
+    font-weight: 600;
+    transition: .25s ease-in-out;
+}
+button:hover{
+    color: rgb(83, 168, 89);
+    background-color: olivedrab;
+    align-items: baseline;
+}
+
+.results{
+    min-height: 100px;
+    background-color: rgb(226, 224, 230);
+    padding: 20px 50px;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px 2px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+}
+
+.result>h4{
+    margin: 0;
+    padding: 2px;
+}
